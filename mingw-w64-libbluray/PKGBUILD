@@ -32,7 +32,7 @@ build() {
     --host=${MINGW_CHOST} \
     --target=${MINGW_CHOST} \
     --enable-examples \
-    --disable-bdjava-jar
+    --enable-bdjava-jar
 
     make
 }
